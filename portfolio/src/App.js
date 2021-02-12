@@ -4,7 +4,8 @@ import Navigation from './components/Navigation';
 
 // Pages
 import AboutUs from './pages/AboutUs';
-import MyWork from "./pages/MyWork";
+import Projects from "./pages/Projects";
+import ProjectDetail from "./pages/ProjectDetail";
 import ContactMe from "./pages/ContactMe";
 
 // Router
@@ -19,8 +20,11 @@ function App() {
         <Route path="/" exact>
           <AboutUs />
         </Route>
-        <Route path="/work">
-          <MyWork />
+        <Route path="/projects" exact>
+          <Projects />
+        </Route>
+        <Route path="/projects/:id">
+          <ProjectDetail />
         </Route>
         <Route path="/contact">
           <ContactMe />

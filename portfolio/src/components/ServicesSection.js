@@ -15,7 +15,7 @@ const ServicesSection = () => {
     return(
         <StyledServicesLayout>
             <StyledDescription>
-                <h2>High <span>guality</span> services</h2>
+                <h2>High <span>quality</span> services</h2>
                 <StyledCards>
                     <StyledCard>
                         <div className="icon">
